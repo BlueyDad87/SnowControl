@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "refmap": "snowcontrol.refmap.json",
+  "package": "net.snowcontrol.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ServerWorldMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

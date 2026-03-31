@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "snowcontrol",
+  "version": "${version}",
+  "name": "Snow Control",
+  "description": "Server-side mod to control snow accumulation by defining XZ exclusion zones.",
+  "authors": ["YourName"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.snowcontrol.SnowControlMod"
+    ]
+  },
+  "mixins": [
+    "snowcontrol.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1"
+  }
+}
