@@ -1,5 +1,5 @@
 # Using the Commands In-Game
-> Note: You must be opped (permission level 2 or higher) to use any of these commands.
+
 
  Adding a Zone
 Creates a new protected zone using minimum and maximum coordinates.
